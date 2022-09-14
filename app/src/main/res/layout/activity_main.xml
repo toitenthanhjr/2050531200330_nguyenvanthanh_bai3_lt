@@ -31,34 +31,36 @@
             android:text="2050531200330"
             android:textColor="#000"
             android:textSize="22dp" />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:text="This is main Activity"
-            android:textColor="#000"
-            android:textSize="30dp" />
         <EditText
             android:id="@+id/EditName"
             android:layout_width="233dp"
             android:layout_height="48dp"
             android:layout_marginBottom="5dp"
             android:ems="15"
-            android:hint="Tên của bạn:"
+            android:hint="Tên đăng nhập:"
             android:textSize="20dp" />
         <EditText
             android:id="@+id/gender"
             android:layout_width="233dp"
             android:layout_height="48dp"
             android:ems="15"
-            android:hint="Giới tính:"
+            android:hint="Password:"
             android:textSize="20dp" />
         <Button
             android:id="@+id/btnOpenChildActivity"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Open child Activity"
+            android:text="Đăng nhập"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Đăng ký"
             android:textSize="20dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
